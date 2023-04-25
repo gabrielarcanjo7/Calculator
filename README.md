@@ -6,9 +6,9 @@
 
   - DEL : backstage
 
-  - C : esc
+  - C : c
 
-  - CE : c
+  - CE : esc
 
 ---
 #### The numbers commands are the same of the pc keyboard !
