@@ -1,0 +1,58 @@
+@media screen and (max-width: 1316px) {
+    div.fixo-nome h3 {
+        position: static;
+        border: none;
+
+    }
+
+    div.fixo-nome hr {
+        width: 100%;
+    }
+
+    div#footer {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    div.fixo-nome {
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #tudo {
+
+    display: inline-block;
+        width: 80%; /* define a largura da div como 80% da largura da viewport */
+        height: 50%; /* define a altura da div como 50% da altura da viewport */
+    }
+
+    #calc {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #tudo {
+    display: inline-block;
+        width: 100%; /* define a largura da div como 80% da largura da viewport */
+        height: 50%; /* define a altura da div como 50% da altura da viewport */
+    }
+
+    #calc {
+        width: 100%;
+    }
+}
